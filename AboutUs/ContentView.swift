@@ -17,9 +17,9 @@ struct ContentView: View {
                 .tabItem {
                     Label("Sabrina", systemImage: "moon.stars.fill")
                 }
-            Text("sof put your view here")
+            SofeaView()
                 .tabItem {
-                    Label("Person 1", systemImage: "person")
+                    Label("Sofea", systemImage: "heart.fill")
                 }
             Text("fiona put your view here")
                 .tabItem {
