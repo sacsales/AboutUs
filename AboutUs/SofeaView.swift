@@ -9,7 +9,29 @@ import SwiftUI
 
 struct SofeaView: View {
     var body: some View {
-        Text("I'm Sofea!")
+        ZStack{
+            Color(.systemMint)
+               .ignoresSafeArea()
+            VStack {
+                Text("I'm Sofea and this is my page.")
+                    .foregroundColor(.white)
+                    .fontWeight(.heavy)
+                    .padding()
+                Image(systemName: "star.fill")
+                
+                Text("This page is mint green because i couldnt find another colour without xcode yelling at me.")
+                    .font(.system(size: 15))
+                    .padding()
+                
+                
+                Text("I also **love** cats.")
+                
+                Text("stan BTS")
+            }
+            
+            
+        }
+       
     }
 }
 
