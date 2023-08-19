@@ -9,7 +9,25 @@ import SwiftUI
 
 struct SabrinaView: View {
     var body: some View {
-        Text("Hello, this is Sabrina!!")
+        ZStack {
+            Color(.systemIndigo)
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("hi, this is sabrina's page!")
+                    .bold()
+                    .padding()
+                
+                Text("I like sleeping, petting cats and anything matcha flavored.")
+                    .padding()
+                Text("my favorite colour is purple, as you can see")
+                    .padding()
+                Image(systemName: "pawprint.fill")
+            }
+            .foregroundColor(.white)
+            
+        }
+        
     }
 }
 
